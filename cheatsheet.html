@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lan="en">
+    <header>
+        <title>Common CSS selectors cheatsheet</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </header>
+
+    <body>
+        <h1>Common CSS selectors</h1>
+
+        <table border="2" class="center">
+            <thead>
+                <tr id="headings">
+                    <th scope="col">Selector</th>
+                    <th scope="col">Example</th>
+                    <th scope="col">Example description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="mono">.class</td>
+                    <td>.intro</td>
+                    <td>Selects all elements with class="intro"</td>
+                </tr>
+                <tr>
+                    <td class="mono">.class1.class2</td>
+                    <td>.name1.name2</td>
+                    <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+                </tr>
+                <tr>
+                    <td class="mono">.class1 .class2</td>
+                    <td>.name1 .name2</td>
+                    <td>Selects all elements with name2 that is a descendant of an element with name1</td>
+                </tr>
+                <tr>
+                    <td class="mono">#id</td>
+                    <td>#firstname</td>
+                    <td>Selects the element with id="firstname"</td>
+                </tr>
+                <tr>
+                    <td class="mono">*</td>
+                    <td>*</td>
+                    <td>Selects all elements</td>
+                </tr>
+                <tr>
+                    <td class="mono">element</td>
+                    <td>p</td>
+                    <td>Selects all &ltp&gt elements</td>
+                </tr>
+                <tr>
+                    <td class="mono">element.class</td>
+                    <td>p.intro</td>
+                    <td>Selects all &ltp&gt elements with class="intro"</td>
+                </tr>
+                <tr>
+                    <td class="mono">element,element</td>
+                    <td>div,p</td>
+                    <td>Selects all &ltdiv&gt and all &ltp&gt elements</td>
+                </tr>
+                <tr>
+                    <td class="mono">element element</td>
+                    <td>div p</td>
+                    <td>Selects all &ltp&gt elements inside &ltdiv&gt elements</td>
+                </tr>
+                <tr>
+                    <td class="mono">element>element</td>
+                    <td>div>p</td>
+                    <td>Selects all &ltp&gt elements  where the parent is a &ltdiv&gt element</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
+
+    

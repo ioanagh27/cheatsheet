@@ -1,0 +1,52 @@
+* {
+    background-color: thistle;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: indigo;    
+    background-color: lavender;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+table {
+    font-size: 18px;
+    border-color: mediumslateblue;
+}
+
+thead {
+    font-size: 20px;
+    text-align: center;
+}
+
+.center tr:first-child th {
+    background-color: mediumorchid;
+}
+
+.center tr:nth-child(even) td {
+    background-color: rgb(240, 142, 174);
+}
+
+.mono {
+    font-family: monospace;
+    display: table;
+    font-size: 16px;
+    background-color: lavender !important;
+    margin-right: 8px;
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+
